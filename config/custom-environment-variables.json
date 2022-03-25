@@ -1,0 +1,7 @@
+{
+    "DB":{
+        "password":"mySecret"
+    },
+
+    "jwt":"jwt-secret"
+}

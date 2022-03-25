@@ -1,0 +1,7 @@
+{
+    "DB":{
+        "username":"amira",
+        "host":"@cluster0.eljyv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+      
+    }
+}

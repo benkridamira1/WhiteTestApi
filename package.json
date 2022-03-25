@@ -1,0 +1,22 @@
+{
+  "name": "whitetestds",
+  "version": "1.0.0",
+  "description": "White Test Api ",
+  "main": "index.js",
+  "scripts": {
+    "start": "set mySecret=mongo123&& set DEBUG=app:*&& set jwt-secret=jwt-secret && nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Amira Ben Krid",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "config": "^3.3.7",
+    "debug": "^4.3.4",
+    "express": "^4.17.3",
+    "joi": "^17.6.0",
+    "joi-objectid": "^4.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.8"
+  }
+}
